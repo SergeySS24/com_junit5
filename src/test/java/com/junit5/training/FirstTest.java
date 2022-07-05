@@ -13,6 +13,7 @@ public class FirstTest {
     static void setUp() {
         Configuration.browserSize = "1920x1080";
         Configuration.holdBrowserOpen = true;
+        Configuration.timeout = 700;
     }
 
 
@@ -23,15 +24,15 @@ public class FirstTest {
 
 
         //$(By.className("search__input")).setValue("Смеситель");
-        $("#q").setValue("table");
+        //$("#q").setValue("table");
         //$(".search__submit").click();
         $(By.className("search__submit")).click();
 
     }
 
-    //@AfterAll
-    //static void close() {
-       //Configuration.timeout = 700;
-      // }
+    @AfterAll
+    static void close() {
+       Configuration.timeout = 700;
+       }
 
 }

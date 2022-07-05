@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="241da409-67c1-42cc-b6a3-7af81d4667c9" name="Changes" comment="Added all for annotations">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/junit5/training/FirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/trainingFile1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/fromLecture/SimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/WebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/fromLecture/WebTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/training/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/training/FirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +224,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
