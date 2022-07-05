@@ -1,4 +1,4 @@
-package com.junit5;
+package com.junit5.fromLecture;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;

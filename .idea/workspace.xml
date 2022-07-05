@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="241da409-67c1-42cc-b6a3-7af81d4667c9" name="Changes" comment="Added sample">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/junit5/domain/MenuItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="241da409-67c1-42cc-b6a3-7af81d4667c9" name="Changes" comment="Added all for annotations">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/junit5/training/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/trainingFile1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/WebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/WebTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testcase.org" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testcase.org" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/fromLecture/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/WebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/fromLecture/WebTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +35,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -59,21 +64,40 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.WebTest.yandexSearchComplexTest">
-    <configuration name="SimpleTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FirstTest">
+    <configuration name="FirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" value="--tests &quot;com.junit5.training.FirstTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
             <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.junit5.SimpleTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FirstTest.simpleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.junit5.training.FirstTest.simpleTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -95,29 +119,6 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="WebTest.jUnitSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.junit5.WebTest.jUnitSearchTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FirstTest" />
+        <item itemvalue="Gradle.FirstTest.simpleTest" />
         <item itemvalue="Gradle.WebTest.yandexSearchComplexTest" />
         <item itemvalue="Gradle.WebTest" />
         <item itemvalue="Gradle.WebTest.yandexSearchTest" />
-        <item itemvalue="Gradle.WebTest.jUnitSearchTest" />
-        <item itemvalue="Gradle.WebTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656879382256</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added all for annotations">
+      <created>1656955321866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656955321866</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -226,6 +234,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Added junit testcases" />
     <MESSAGE value="Added sample" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added sample" />
+    <MESSAGE value="Added all for annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added all for annotations" />
   </component>
 </project>

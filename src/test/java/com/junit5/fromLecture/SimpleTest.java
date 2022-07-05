@@ -1,4 +1,4 @@
-package com.junit5;
+package com.junit5.fromLecture;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
