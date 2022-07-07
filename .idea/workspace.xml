@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="241da409-67c1-42cc-b6a3-7af81d4667c9" name="Changes" comment="Added all for annotations">
+    <list default="true" id="241da409-67c1-42cc-b6a3-7af81d4667c9" name="Changes" comment="Added before pull">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/fromLecture/WebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/fromLecture/WebTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/training/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/training/FirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Gradle.FirstTest.simpleTest">
+  <component name="RunManager" selected="Gradle.FirstTest.simple">
     <configuration name="FirstTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,7 +103,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FirstTest.simpleTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FirstTest.simple" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -117,7 +116,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.junit5.training.FirstTest.simpleTest&quot;" />
+            <option value="&quot;com.junit5.training.FirstTest.simple&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -171,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FirstTest.simpleTest" />
+        <item itemvalue="Gradle.FirstTest.simple" />
         <item itemvalue="Gradle.FirstTest" />
+        <item itemvalue="Gradle.FirstTest.simpleTest" />
         <item itemvalue="Gradle.WebTest.yandexSearchTest" />
         <item itemvalue="Gradle.FirstTest (1)" />
-        <item itemvalue="Gradle.FirstTest.simpleTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +238,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />

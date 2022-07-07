@@ -18,10 +18,11 @@ public class FirstTest {
         Configuration.browserSize = "1920x1080";
     }
 
-    @ValueSource(strings = { "Смеситель",
-                             "Ламинат"
-    })
+   // @ValueSource(strings = { "Смеситель",
+     //                        "Ламинат"
+   // })
 
+    @Disabled
     @ParameterizedTest(name = "проверка выдачи результатов по слову {0} в Петровиче")
     void simpleTest(String testData) {
         //Предусловия
@@ -38,6 +39,17 @@ public class FirstTest {
 
     }
 
+
+        @ValueSource(strings = { "Смеситель",
+            "Ламинат"
+        })
+
+        @ParameterizedTest
+        void simple(String alfa) {
+            Selenide.open("https://petrovich.ru");
+            $(By.className("header-search-input")).setValue(alfa);
+            $(By.className("pt-btn-fullheight___W5w5D")).click();
+        }
 
 
    // @DisplayName("проверка выдачи результатов по слову Смеситель в Леруа")
