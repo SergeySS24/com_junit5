@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="241da409-67c1-42cc-b6a3-7af81d4667c9" name="Changes" comment="Added sample">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="241da409-67c1-42cc-b6a3-7af81d4667c9" name="Changes" comment="Added finished test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/training/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/training/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/trainingFile1" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/trainingFile1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657057328256</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added finished test">
+      <created>1657144817830</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657144817830</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -252,6 +255,7 @@
     <MESSAGE value="Added junit testcases" />
     <MESSAGE value="Added all for annotations" />
     <MESSAGE value="Added sample" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added sample" />
+    <MESSAGE value="Added finished test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added finished test" />
   </component>
 </project>
