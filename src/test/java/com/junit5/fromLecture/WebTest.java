@@ -20,7 +20,7 @@ public class WebTest {
             "Selenide",
             "JUnit"
     })
-    @Disabled
+    //@Disabled
     @ParameterizedTest(name = "проверка поиска в Яндексе по слову {0}")
     void yandexSearchTest(String testData) {
         //Предусловия:
@@ -35,7 +35,7 @@ public class WebTest {
     }
 
 
-
+    @Disabled
     @CsvSource(value = {
             "Selenide| is an open source library for test",
             "JUnit| Support JUnit"
