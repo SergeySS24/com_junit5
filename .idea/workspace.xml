@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="241da409-67c1-42cc-b6a3-7af81d4667c9" name="Changes" comment="Added polishing annotations" />
+    <list default="true" id="241da409-67c1-42cc-b6a3-7af81d4667c9" name="Changes" comment="Added polishing annotations">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/training/SSSS.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -258,7 +260,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657384922446</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added finalslate">
+      <created>1657465095249</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657465095249</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added finalslate2">
+      <created>1657465200678</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657465200678</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added finalslate2">
+      <created>1657465208059</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657465208059</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -283,6 +306,8 @@
     <MESSAGE value="Added mine ParameterizedTest" />
     <MESSAGE value="Added new my test" />
     <MESSAGE value="Added many tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added many tests" />
+    <MESSAGE value="Added finalslate" />
+    <MESSAGE value="Added finalslate2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added finalslate2" />
   </component>
 </project>
