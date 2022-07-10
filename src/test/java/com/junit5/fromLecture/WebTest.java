@@ -20,7 +20,7 @@ public class WebTest {
             "Selenide",
             "JUnit"
     })
-    //@Disabled
+    @Disabled
     @ParameterizedTest(name = "проверка поиска в Яндексе по слову {0}")
     void yandexSearchTest(String testData) {
         //Предусловия:
