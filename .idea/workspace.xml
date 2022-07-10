@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="241da409-67c1-42cc-b6a3-7af81d4667c9" name="Changes" comment="Added polishing annotations">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/training/SSSS.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/junit5/tests/SSSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testcase_for_allithave.ru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_07_2022_17_55__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_07_2022_17_55__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_07_2022_17_55__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_07_2022_17_55__Changes_1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,6 +288,7 @@
     <servers />
   </component>
   <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ru" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.org" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
