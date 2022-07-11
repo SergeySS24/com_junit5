@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="241da409-67c1-42cc-b6a3-7af81d4667c9" name="Changes" comment="Added many tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/junit5/training/FifthTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/junit5/training/SSSS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/fromLecture/WebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/fromLecture/WebTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/training/ForthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/training/ForthTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="241da409-67c1-42cc-b6a3-7af81d4667c9" name="Changes" comment="Added many tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -280,6 +274,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
