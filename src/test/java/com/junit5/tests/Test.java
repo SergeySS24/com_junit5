@@ -26,7 +26,7 @@ public class Test {
     @ValueSource(strings = {"рубашка",
                             "джинсы"})
 
-    @ParameterizedTest(name = "Ввод слова {0}")
+    @ParameterizedTest(name = "Поиск по слову {0}")
     void searchItems(String goods) {
         //Предусловие
         Selenide.open("https://piter.allithave.ru/");
@@ -44,13 +44,13 @@ public class Test {
     "ботинки| Ботинки лыжные TREK Snowball"},
     delimiter = '|')
 
-    @ParameterizedTest (name = "Ввод слова {0}")
-    void searchItemsWithCards(String stuff, String expectedResult) {
+    @ParameterizedTest (name = "Поиск по слову {0}")
+    void searchItemsWithCards(String searchWord, String expectedResult) {
         //Предусловие
         Selenide.open("https://piter.allithave.ru/");
 
         //Шаги
-        $(".flex-grow-1").setValue(stuff);
+        $(".flex-grow-1").setValue(searchWord);
         $(".pr-lg-3").click();
 
         //Ожидаемый результат
@@ -62,8 +62,6 @@ public class Test {
     @ParameterizedTest(name = "Проверка закрепленных значений в topbar {0}")
     void checkPermanentValues(TestEnum charlie) {
         Selenide.open("https://piter.allithave.ru/");
-        $(".flex-grow-1").setValue("машина");
-        $(".pr-lg-3").click();
         $$(".flex-grow-1").find(Condition.text(charlie.topBar)).shouldBe(Condition.visible);
     }
 }
