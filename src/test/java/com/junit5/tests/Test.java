@@ -57,7 +57,7 @@ public class Test {
         $$(".flex-grow-1").find(Condition.text(expectedResult)).shouldBe(Condition.visible);
     }
 
-    //Тест№3 // 
+    //Тест№3 //
     @EnumSource(TestEnum.class)
     @ParameterizedTest(name = "Проверка закрепленных значений в topbar {0}")
     void checkPermanentValues(TestEnum charlie) {
